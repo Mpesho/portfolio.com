@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" type="image/x-icon" href="assets/logo2.svg">
+    <meta name="author" content="jaye haqiim">
+    <meta name="description" content="jaye haqiim's portfolio website">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+    <title>Mpesho Matsoso's portfolio website</title>
+</head>
+<body>
+    <div id="optbar">
+        <ul id="opts">
+            <a href><li>home</li></a>
+            <a href="#marker"><li>works</li></a>
+            <a href="Resume.html" name="opens resume"><li>resume</li></a>
+            <a href="AboutPage.html"><li>about me</li></a>
+        </ul>
+    </div>
+    <nav id="nav">
+        <div class="container">
+            <div id="logo">
+                <img src="assets/logo1.svg" alt="logo">
+            </div>  
+
+            <div id="nav-container">
+                <ul id="nav-items">
+                    <a href="#home" class="class" id="home-btn">
+                        <li>Home</li>
+                    </a>
+                    <a href="#marker" class="class" id="projects-btn">
+                        <li>Projects</li>
+                    </a>
+                    <a href="Resume.html" id="class">
+                        <button class="btn resume-btn cursor">resume</button>
+                    </a>
+                </ul>
+                <div id="hamburger">
+                    <div class="bar" id="topbar"></div>
+                    <div class="bar" id="midbar"></div>
+                    <div class="bar" id="botbar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <div id="text">
+                <h3>
+                    Hello,</h2>
+                    <h1 id="intro2">I'm Mpesho</h1>
+                    <h2 id="intro3">Full-Stack Developer</h2>
+                    <p id="txt">
+                        I build aestethic, responsive <br>
+                        and interactive web
+                        user interfaces.<br>
+                        <br>
+                        It's my calling &#128521;
+                    </p>
+                    <div id="bout">
+                        <a href="AboutPage.html">
+                            <button class="btn about-btn cursor">about me</button>
+                        </a>
+                    </div>
+            </div>
+            <div id="image-side">
+                <div class="card" id="project-preview">
+                    <div class="card-title">
+                        <div class="padding">
+                            <span>Projects</span>
+                            <span class="seemore">see more</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <a href="https://hqmuseic.netlify.app/" class="item card" id="item1">
+                            <img src="assets/music-icon.svg" alt="music-icon">
+                        </a>
+                        <a href="https://frontendmentorecp.netlify.app" class="item card" id="item2">
+                            <img src="assets/shoppingcart.svg" alt="music-icon">
+                        </a>
+                        <a href="https://easyshopapp.netlify.app" class="item card" id="item3">
+                            easyshop
+                        </a>
+                    </div>
+                </div>
+                <div class="card" id="skills">
+                    <div class="card-title">
+                        <div class="padding">
+                            <span>Skills</span>
+                            <span class="seemore">see more</span>
+                        </div>
+                    </div>
+                    <div class="skill-items card-content">
+                        <div class="item2 card">
+                            <div class="skill-icon">
+                                <img src="assets/html.svg" alt="html-icon">
+                            </div>
+                            <div class="card-label small-label">html</div>
+                        </div>
+                        <div class="item2 card">
+                            <div class="skill-icon">
+                                <img src="assets/css.svg" alt="html-icon">
+                            </div>
+                            <div class="card-label small-label">css</div>
+                        </div>
+                        <div class="item2 card">
+                            <div class="skill-icon">
+                                <img src="assets/bootstrap.svg" alt="html-icon">
+                            </div>
+                            <div class="card-label small-label">bootstrap</div>
+                        </div>
+                        <div class="item2 card">
+                            <div class="skill-icon">
+                                <img src="assets/javascript.svg" alt="html-icon">
+                            </div>
+                            <div class="card-label small-label">javascript</div>
+                        </div>
+                        <div class="item2 card">
+                            <div class="skill-icon">
+                                <img src="assets/react.svg" alt="html-icon">
+                            </div>
+                            <div class="card-label small-label">react</div>
+                        </div>
+                        <div class="item2 card">
+                            <div class="skill-icon">
+                                <img src="assets/tailwind.svg" alt="html-icon">
+                            </div>
+                            <div class="card-label small-label">tailwind</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id="design">
+                    <img src="assets/design2.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works">
+        <span id="marker"></span>
+        <div class="container">
+            <div class="page-header" id="header">Projects</div>
+            <div class="item-pack">
+                <div class="card item3">
+                    <div id="technologies">
+                        <p id="tech-title">Technologies used:</p>
+                        <ul id="tech-used"></ul>
+                        <div id="pointer"></div>
+                    </div>
+                    <div class="img-container" id="img1">
+                        <div id="name2">Music Player</div>
+                        <div id="thumbnail">
+                            <img src="assets/music-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="n-d">
+                        <div id="card-name">Music Player</div>
+                        <div id="demos">
+                            <a href="https://github.com/CoderHaqiim/Music-player-application"><button class="btn github cursor">github</button></a>
+                            <a href="https://hqmuseic.netlify.app/"><button class="btn live-demo cursor">live demo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item3 card">
+                    <div class="img-container" id="img2">
+                        <div id="name2">e-commerce-page</div>
+                        <div id="thumbnail">
+                            <img src="assets/shoppingcart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="n-d">
+                        <div id="card-name">e-commerce</div>
+                        <div id="demos">
+                            <a href="https://github.com/CoderHaqiim/e-commerce-page"><button class="btn github">github</button></a>
+                            <a href="https://frontendmentorecp.netlify.app"><button class="btn live-demo">live demo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item3 card">
+                    <div class="img-container" id="img3">
+                        <div id="name2">easyshop</div>
+                    </div>
+                    <div class="n-d">
+                        <div id="card-name">easyshop</div>
+                        <div id="demos">
+                            <a href="https://github.com/CoderHaqiim/e-commerce-website"><button class="btn github">github</button></a>
+                            <a href="https://easyshopapp.netlify.app"><button class="btn live-demo">live demo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item3 card">
+                    <div class="img-container" id="img4">
+                        <div id="name2">Nft</div>
+                    </div>
+                    <div class="n-d">
+                        <div id="card-name">Nft</div>
+                        <div id="demos">
+                            <button class="btn github">github</button>
+                            <button class="btn live-demo">live demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div id="foot-content">
+                <div id="messenger">
+                    <div id="title">
+                        Leave a message
+                    </div>
+                    <form id="info" netlify name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                        <input type="text" id="name" placeholder="name" name="name" required>
+                        <input type="text" id="email" placeholder="e-mail" name="email" required>
+                        <textarea placeholder="enter your message here" name="message"></textarea>
+                        <div id="send"><button class="btn cursor" type="submit">send</button></div>
+                    </form>
+                </div>
+                <div id="logo2">
+                    <img src="assets/logo1.svg" alt="">
+                </div>
+            </div>
+            <div id="social-media">
+                <div id="media">
+                    <a href="https://web.facebook.com/mpeshoculmanmatsoso/" class="allmedia pop-up cursor">
+                        <img src="assets/facebook.svg" alt="">
+                    </a>
+                    <a href="https://twitter.com/MatsosoMpesho" class="allmedia pop-up cursor">
+                        <img src="assets/twitter.svg" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/simeonmatsoso/" class="allmedia pop-up cursor">
+                        <img src="assets/insta1.svg" alt="">
+                    </a>
+                    <a href="https://github.com/CoderHaqiim" class="allmedia pop-up cursor">
+                        <img src="assets/github.svg" alt="">
+                    </a>
+                </div>
+                <div id="foot-links">
+                    <ul>
+                        <a href="#home"><li>home</li></a>
+                        <a href="#marker"><li>projects</li></a>
+                        <a href="Resume.html"><li>resume</li></a>
+                        <a href="AboutPage.html"><li>about-me</li></a>
+                    </ul>
+                </div>32
+            </div>
+            <div id="signout">
+                <div id="copyright">&copy; 2023 mpesho matsoso</div>
+                <div id="signature"> </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+﻿*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0pc;
+    border:0px;
+}
+
+body{
+    background-color: yellow;
+}
